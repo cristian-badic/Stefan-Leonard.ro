@@ -1,14 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Train+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
 
+#text-link {
+  color: white;
+}
+
 #text-link:hover {
   color: cyan;
   border-radius: 5px;
   box-shadow: 0 0 5px #33ffff, 0 0 10px #66ffff;
+  text-decoration: none;
 }
 
 #navbar {
-  background: hsl(192, 100%, 13%);
+  background:#212529;
   font-family: "Bebas Neue", cursive;
   font-size: 18px;
   padding: 8px 15px;

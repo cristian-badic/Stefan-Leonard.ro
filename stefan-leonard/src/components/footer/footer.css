@@ -1,0 +1,44 @@
+.footer-area {
+  padding: 40 px 0 20 px;
+  border-top: 1 px solid hsla(0, 0%, 40%, 0.3);
+  background-color: #212529;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15 px;
+  padding-left: 15 px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15 px;
+  margin-left: -15 px;
+}
+
+.footer-image img {
+  max-width: 60 px;
+  height: 70px;
+}
+
+.footer-menu ul li {
+  width: 40 px;
+  height: 40 px;
+  line-height: 46px;
+  margin: 0 5 px;
+  border-radius: 50%;
+  background: #333;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  display: inline-block;
+  margin:5px;
+}
+/* 
+.footer-menu ul {
+  justify-content: center;
+  margin-bottom: 15 px;
+  
+} */

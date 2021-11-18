@@ -2,6 +2,7 @@ import React from "react";
 import wolves from "./components/assets/video/holanda.mp4";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./components/header/header.jsx";
+import Footer from "./components/footer/footer";
 import Home from "./pages/home/home";
 import Portofolio from "./pages/portofolio/portofolio";
 import Contact from "./pages/contact/contact";
@@ -30,21 +31,15 @@ function App() {
     // </div>
 
     <div className="App">
-      <Header />
-
       <Router>
+        <Header />
         <Switch>
-          <Route exact path="/" component={Home}>
-            {/* <Home /> */}
-          </Route>
-          <Route exact path="/portofolio" component={Portofolio}>
-            {/* <Portofolio /> */}
-          </Route>
-          <Route exact path="/contact" component={Contact}>
-            {/* <Contact /> */}
-          </Route>
+          <Route exact path="/" component={Home}></Route>
+          <Route exact path="/portofolio" component={Portofolio}></Route>
+          <Route exact path="/contact" component={Contact}></Route>
           <Route component={FourZeroFour}></Route>
         </Switch>
+        <Footer />
       </Router>
     </div>
   );
