@@ -1,13 +1,13 @@
 import React from "react";
-import { FaFacebook } from "react-icons/fa";
+import { FaFacebook, FaYoutube } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import Logo from "../assets/images/logo.jpg"
-
+import Logo from "../assets/images/logo.jpg";
 import "./footer.css";
+import { Button } from "semantic-ui-react";
 
 const Footer = () => {
   return (
-    <div className="footer-area text-center text-light">
+    <div className="footer-area text-center text-light ">
       <div className="container">
         <div className="row">
           <div className="col-12">
@@ -20,13 +20,33 @@ const Footer = () => {
           <div className="col-12">
             <div className="footer-menu  ">
               <ul className="d-flex justify-content-center">
-                <li><a target="_blank" href="https://www.facebook.com/">
-                  <FaFacebook size={"40px"} color="#21252" />
-                </a>
+                {/* <button href="https://semantic-ui.com/elements/button.html#icon-buttons" class="ui circular facebook icon button">
+                  <i class="facebook icon"></i>
+                </button>
+                <button class="ui circular twitter icon button">
+                  <i class="twitter icon"></i>
+                </button>
+                <button class="ui circular linkedin icon button">
+                  <i class="linkedin icon"></i>
+                </button>
+                <button class="ui circular google plus icon button">
+                  <i class="google plus icon"></i>
+                </button> */}
+
+                <li>
+                  <a target="_blank" href="https://www.facebook.com/">
+                    <FaFacebook size={"40px"} color="#21252" />
+                  </a>
                 </li>
-                <li><a target="_blank" href="https://twitter.com/">
-                <FaInstagram size={"40px"} color="#21252" />
-                </a>
+                <li>
+                  <a target="_blank" href="https://twitter.com/">
+                    <FaInstagram size={"40px"} color="#21252" />
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://twitter.com/">
+                    <FaYoutube size={"40px"} color="#21252" />
+                  </a>
                 </li>
               </ul>
             </div>

@@ -1,7 +1,8 @@
 import React from "react";
+import ModalYoutube from "../../components/imagecard/videoModal";
 
 const Portofolio = () => {
-  return <div> Portofolio</div>;
+  return <ModalYoutube />;
 };
 
 export default Portofolio;

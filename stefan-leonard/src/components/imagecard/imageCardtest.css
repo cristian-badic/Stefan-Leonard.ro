@@ -1,0 +1,12 @@
+.white_svg{
+  background-color: #212529;
+}
+
+svg{
+    overflow: hidden;
+}
+
+
+.white_svg svg{
+    fill: #484b4e;
+}

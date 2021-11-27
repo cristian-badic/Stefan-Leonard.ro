@@ -4,6 +4,9 @@
 #text-link {
   color: white;
 }
+.nav-link {
+  font-size: 1.5rem;
+}
 
 #text-link:hover {
   color: cyan;
@@ -12,9 +15,39 @@
   text-decoration: none;
 }
 
+.bg-myGray {
+  background-color: #212529;
+}
+
 #navbar {
-  background:#212529;
   font-family: "Bebas Neue", cursive;
   font-size: 18px;
   padding: 8px 15px;
 }
+
+#logo {
+  animation: spin 5s infinite;
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotateY(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotateY(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+/* @media screen and (max-width: 1000px) {
+  .logo {
+    justify-content: center;
+  }
+} */
