@@ -7,9 +7,6 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
-import photo from ".././assets/thumbnails/fotbal.JPG";
-import photo1 from ".././assets/thumbnails/heaven.JPG";
-import photo3 from ".././assets/thumbnails/capra.JPG";
 import ModalYotube from "./videoModal";
 import "./imageCardtest.css";
 
@@ -37,10 +34,10 @@ export default function ImgMediaCard() {
           </CardActions>
           <CardMedia
             component="img"
-            alt="green iguana"
+            alt=""
             height="340"
             width="500"
-            image={photo}
+            image="/assets/thumbnails/fotbal.JPG"
           />
         </Card>
         <Card sx={{ maxWidth: 400, bgcolor: "#212529" }}>
@@ -54,7 +51,7 @@ export default function ImgMediaCard() {
             alt=""
             height="340"
             width="500"
-            image={photo1}
+            image="/assets/thumbnails/heaven.JPG"
           />
         </Card>
         <Card sx={{ maxWidth: 400, bgcolor: "#212529" }}>
@@ -68,7 +65,7 @@ export default function ImgMediaCard() {
             alt=""
             height="340"
             width="500"
-            image={photo3}
+            image="/assets/thumbnails/capra.JPG"
           />
         </Card>
       </Grid>

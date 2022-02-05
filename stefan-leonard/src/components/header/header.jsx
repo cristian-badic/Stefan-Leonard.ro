@@ -1,7 +1,6 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Logo from "../assets/images/logo5.svg";
 import "./header.css";
 
 const Header = () => {
@@ -29,7 +28,7 @@ const Header = () => {
           </Nav>
         </Navbar.Collapse>
         <Navbar.Brand className="d-flex">
-          <img id="logo" className="logo" alt="" src={Logo} />
+          <img id="logo" className="logo" alt="" src="/assets/images/logo5.svg" />
         </Navbar.Brand>
       </Navbar>
     </>

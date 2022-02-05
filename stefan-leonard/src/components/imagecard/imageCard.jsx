@@ -1,5 +1,4 @@
 import React from "react";
-import firstphoto from "../assets/images/firstphoto.jpg";
 import "./imageCard.css";
 
 const ImageHeader = () => {
@@ -22,7 +21,7 @@ const ImageHeader = () => {
                       <div className="">
                         <div className="tp-protfolio-single">
                           <div className="tp-protfolio-img">
-                            <img src={firstphoto} width="400px" alt="" />
+                            <img src="/assets/images/firstphoto.jpg" width="400px" alt="" />
                           </div>
                           <div className="tp-protfolio-text">
                             <h2>Minimalism</h2>
@@ -36,7 +35,7 @@ const ImageHeader = () => {
                       <div className="">
                         <div className="tp-protfolio-single">
                           <div className="tp-protfolio-img">
-                            <img src={firstphoto} width="400px" alt="" />
+                            <img src="/assets/images/firstphoto.jpg" width="400px" alt="" />
                           </div>
                           <div className="tp-protfolio-text">
                             <h2>Abstract Art</h2>
@@ -50,7 +49,7 @@ const ImageHeader = () => {
                       <div className="">
                         <div className="tp-protfolio-single">
                           <div className="tp-protfolio-img">
-                            <img src={firstphoto} width="400px" alt="" />
+                            <img src="/assets/images/firstphoto.jpg" width="400px" alt="" />
                           </div>
                           <div className="tp-protfolio-text">
                             <h2>3D Project</h2>
@@ -64,7 +63,7 @@ const ImageHeader = () => {
                       <div className="">
                         <div className="tp-protfolio-single">
                           <div className="tp-protfolio-img">
-                            <img src={firstphoto} width="400px" alt="" />
+                            <img src="/assets/images/firstphoto.jpg" width="400px" alt="" />
                           </div>
                           <div className="tp-protfolio-text">
                             <h2>Modern BG</h2>
@@ -78,7 +77,7 @@ const ImageHeader = () => {
                       <div className="">
                         <div className="tp-protfolio-single">
                           <div className="tp-protfolio-img">
-                            <img src={firstphoto} width="400px" alt="" />
+                            <img src="/assets/images/firstphoto.jpg" width="400px" alt="" />
                           </div>
                           <div className="tp-protfolio-text">
                             <h2>Visual Design</h2>
@@ -92,7 +91,7 @@ const ImageHeader = () => {
                       <div className="">
                         <div className="tp-protfolio-single">
                           <div className="tp-protfolio-img">
-                            <img src={firstphoto} width="400px" alt="" />
+                            <img src="/assets/images/firstphoto.jpg" width="400px" alt="" />
                           </div>
                           <div className="tp-protfolio-text">
                             <h2>Product Design</h2>

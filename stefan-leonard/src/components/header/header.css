@@ -3,6 +3,7 @@
 
 #text-link {
   color: white;
+  text-underline-position: under;
 }
 .nav-link {
   font-size: 1.5rem;
@@ -46,8 +47,3 @@
   }
 }
 
-/* @media screen and (max-width: 1000px) {
-  .logo {
-    justify-content: center;
-  }
-} */

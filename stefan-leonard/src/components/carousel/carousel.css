@@ -6,7 +6,7 @@
   left: 0;
   width: 100%;
   text-align: center;
-  animation: fadeinout 3s infinite;
+  animation: fadeinout 5s infinite;
 }
 
 /* @-webkit-keyframes fadeinout {
