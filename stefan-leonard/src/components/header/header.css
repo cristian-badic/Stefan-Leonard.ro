@@ -3,9 +3,9 @@
 
 #text-link {
   color: white;
-  text-underline-position: under;
 }
 .nav-link {
+  display: block;
   font-size: 1.5rem;
 }
 
@@ -23,7 +23,7 @@
 #navbar {
   font-family: "Bebas Neue", cursive;
   font-size: 18px;
-  padding: 8px 15px;
+  /* padding: 8px 15px; */
 }
 
 #logo {
@@ -46,4 +46,3 @@
     transform: rotateY(360deg);
   }
 }
-

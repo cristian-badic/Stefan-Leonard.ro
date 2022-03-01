@@ -1,7 +1,10 @@
 .footer-area {
   padding: 40 px 0 20 px;
-  border-top: 1 px solid hsla(0, 0%, 40%, 0.3);
+  /* border-top: 1 px solid hsla(0, 0%, 40%, 0.3); */
   background-color: #212529;
+  position: relative;
+  width: 100%;
+  bottom: 0;
 }
 
 .container {

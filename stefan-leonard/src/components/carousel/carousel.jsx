@@ -20,7 +20,7 @@ const Carusel = (props) => {
         />
       </div>
 
-      <Carousel  indicators={false} fade={true} interval={4000} controls={false}>
+      <Carousel  indicators={false} fade={true} interval={3000} controls={false}>
         {props.caruselImagesData.map((slide) => (
           <Carousel.Item key={slide.id}>
             <img className="d-block w-100" src={slide.img} alt="First slide" />
